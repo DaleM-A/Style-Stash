@@ -15,9 +15,9 @@
 # Function to display the cart each time the user makes a choice
 
 def display_cart(cart):
-    print("\n")
-    print("Current items in your cart:")
-    print("\n")
+    
+    print("\nCurrent items in your cart:\n")
+    
     for item, price in cart.items():
         print(f"{item}: £{price}")
     print("-" * 80)
